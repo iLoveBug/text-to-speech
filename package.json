@@ -1,0 +1,66 @@
+{
+  "name": "@capacitor-community/text-to-speech",
+  "version": "0.2.3",
+  "description": "Capacitor plugin for synthesizing speech from text.",
+  "main": "dist/plugin.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "scripts": {
+    "lint": "npm run prettier -- --check && npm run swiftlint -- lint",
+    "prettier": "prettier \"**/*.{css,html,ts,js,java}\"",
+    "swiftlint": "node-swiftlint",
+    "build": "npm run clean && tsc && rollup -c rollup.config.js",
+    "clean": "rimraf ./dist",
+    "watch": "tsc --watch",
+    "prepublishOnly": "npm run build",
+    "release": "standard-version"
+  },
+  "author": "Robin Genz <mail@robingenz.dev>",
+  "license": "MIT",
+  "devDependencies": {
+    "@capacitor/android": "2.4.7",
+    "@capacitor/core": "2.4.7",
+    "@capacitor/ios": "2.4.7",
+    "@ionic/prettier-config": "1.0.1",
+    "@ionic/swiftlint-config": "1.1.2",
+    "prettier": "2.0.5",
+    "prettier-plugin-java": "0.8.3",
+    "rimraf": "3.0.2",
+    "rollup": "2.21.0",
+    "standard-version": "9.1.0",
+    "swiftlint": "1.0.1",
+    "typescript": "3.9.5"
+  },
+  "peerDependencies": {
+    "@capacitor/core": "^2.4.2"
+  },
+  "files": [
+    "android/src/main/",
+    "android/build.gradle",
+    "dist/",
+    "ios/Plugin/",
+    "CapacitorCommunityTextToSpeech.podspec"
+  ],
+  "keywords": [
+    "capacitor",
+    "plugin",
+    "native"
+  ],
+  "capacitor": {
+    "ios": {
+      "src": "ios"
+    },
+    "android": {
+      "src": "android"
+    }
+  },
+  "prettier": "@ionic/prettier-config",
+  "swiftlint": "@ionic/swiftlint-config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/capacitor-community/text-to-speech.git"
+  },
+  "bugs": {
+    "url": "https://github.com/capacitor-community/text-to-speech/issues"
+  }
+}

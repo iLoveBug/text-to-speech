@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/zhangfan/Documents/云动世界/world-sports-app/node_modules/@capacitor-community/text-to-speech/android/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/zhangfan/.gradle/caches/transforms-2/files-2.1/cf23515831a30cf8e0e5ff774beb1451/core-1.2.0/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/zhangfan/Documents/云动世界/world-sports-app/node_modules/@capacitor-community/text-to-speech/android/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/zhangfan/.gradle/caches/transforms-2/files-2.1/cf23515831a30cf8e0e5ff774beb1451/core-1.2.0/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/zhangfan/Documents/云动世界/world-sports-app/node_modules/@capacitor-community/text-to-speech/android/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/zhangfan/.gradle/caches/transforms-2/files-2.1/cf23515831a30cf8e0e5ff774beb1451/core-1.2.0/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/zhangfan/Documents/云动世界/world-sports-app/node_modules/@capacitor-community/text-to-speech/android/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/zhangfan/.gradle/caches/transforms-2/files-2.1/cf23515831a30cf8e0e5ff774beb1451/core-1.2.0/res/layout-v21/notification_template_custom_big.xml"
+    }
+]
