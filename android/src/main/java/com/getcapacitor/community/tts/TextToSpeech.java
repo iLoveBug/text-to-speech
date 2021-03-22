@@ -44,7 +44,7 @@ public class TextToSpeech extends Plugin implements android.speech.tts.TextToSpe
                 Bundle ttsParams = new Bundle();
                 ttsParams.putSerializable(android.speech.tts.TextToSpeech.Engine.KEY_PARAM_UTTERANCE_ID, "");
                 tts.setLanguage(new Locale("en", "US"));
-                tts.speak("TTS OK", android.speech.tts.TextToSpeech.QUEUE_ADD, ttsParams, "");
+                tts.speak("", android.speech.tts.TextToSpeech.QUEUE_ADD, ttsParams, "");
 
                 tts.setOnUtteranceProgressListener(
                     new UtteranceProgressListener() {
